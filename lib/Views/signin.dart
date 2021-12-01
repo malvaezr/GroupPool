@@ -71,6 +71,7 @@ class _State extends State<SignInPage> {
                     height: 50,
                     padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
                     child: ElevatedButton(
+                      key: Key('loginbttn'),
                       style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all<Color>(Colors.pink)),
